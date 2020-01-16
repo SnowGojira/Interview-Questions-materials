@@ -1,5 +1,5 @@
 function delayMe(delay,cb){
-  console.log(`request: {delay}`);
+  console.log(`request: ${delay}`);
   setTimeout(cb,delay);
 }
 
